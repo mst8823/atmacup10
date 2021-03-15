@@ -37,25 +37,25 @@
 2. num fold: 5~10
 
 ### 3. model
-1. single model
+**1. single model**
   - lightgbm * 11, xgboost * 1
   - それぞれ異なる特徴量で学習
   - 2000~3000個の特徴量を importance で上位700コ程度に絞ってから学習
   - 3 seed average
   - best public score: lightgbm cv:0.9392, public:0.9463, private:0.9725
 
-2. stacking (1st layer)
+**2. stacking (1st layer)**
   - ridge * 2, mlp * 2, lightgbm * 4, xgboost * 2, extra_trees * 1, cat_boost * 2
   - 5~10 seed average
   - best public score: cat_boost cv:0.9177, public:0.9401, private:0.9638 
  
-3. stacking (2nd layer)
+**3. stacking (2nd layer)**
   - lightgbm * 1, cat_boost * 2, ridge * 1
   - singe model, stacking 1st layer の予測値すべてを学習に用いた
   - 5~10 seed average
   - best public score: cat_boost cv:0.9164, public:0.9400, private:0.9639 
 
-4. stacking (final layer)
+**4. stacking (final layer)**
   - cat_boost
   - singe model, stacking 1st layer, 2nd layer の予測値をすべて学習に用いた
   - 5 seed average
