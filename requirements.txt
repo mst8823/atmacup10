@@ -1,0 +1,12 @@
+mlflow
+texthero
+xfeat
+lightgbm
+xgboost
+catboost
+gensim
+plotly
+matplotlib_venn
+category_encoders
+geopy
+langdetect
