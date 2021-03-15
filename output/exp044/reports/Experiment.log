@@ -1,0 +1,92 @@
+[2021-03-13 01:39:54] - exp name : exp044
+[2021-03-13 01:39:54] - metrics : mean_squared_error
+[2021-03-13 01:39:54] - cv : make_gkf
+[2021-03-13 01:39:54] - model : MyLGBMModel
+[2021-03-13 01:39:54] - feature select method : tree_importance
+[2021-03-13 01:39:54] - feature select fold : 3
+[2021-03-13 01:39:54] - feature select num : 700
+[2021-03-13 01:39:54] - folds: 5
+[2021-03-13 01:39:54] - seeds : [0, 1, 2, 3, 4, 5, 6]
+[2021-03-13 01:39:54] - model params : {'n_estimators': 10000, 'objective': 'regression', 'learning_rate': 0.01, 'num_leaves': 31, 'random_state': 2021, 'n_jobs': -1, 'importance_type': 'gain', 'colsample_bytree': 0.5, 'reg_lambda': 5}
+[2021-03-13 01:39:54] - fit params: {'early_stopping_rounds': 200, 'verbose': 100}
+[2021-03-13 01:39:54] - exp044_likes - start training cv
+[2021-03-13 01:51:56] - exp044_likes - SEED:0, FOLD:0 >>> 0.8860
+[2021-03-13 01:53:04] - exp044_likes - SEED:0, FOLD:1 >>> 0.9938
+[2021-03-13 01:53:57] - exp044_likes - SEED:0, FOLD:2 >>> 0.9566
+[2021-03-13 01:55:34] - exp044_likes - SEED:0, FOLD:3 >>> 0.9266
+[2021-03-13 01:56:25] - exp044_likes - SEED:0, FOLD:4 >>> 1.0431
+[2021-03-13 01:56:26] - exp044_likes - SEED:0 - score: 0.9612
+[2021-03-13 01:57:21] - exp044_likes - SEED:1, FOLD:0 >>> 0.9294
+[2021-03-13 01:58:12] - exp044_likes - SEED:1, FOLD:1 >>> 0.9412
+[2021-03-13 01:59:32] - exp044_likes - SEED:1, FOLD:2 >>> 1.0021
+[2021-03-13 02:00:54] - exp044_likes - SEED:1, FOLD:3 >>> 0.9682
+[2021-03-13 02:01:45] - exp044_likes - SEED:1, FOLD:4 >>> 0.9461
+[2021-03-13 02:01:45] - exp044_likes - SEED:1 - score: 0.9575
+[2021-03-13 02:02:33] - exp044_likes - SEED:2, FOLD:0 >>> 1.0110
+[2021-03-13 02:03:37] - exp044_likes - SEED:2, FOLD:1 >>> 0.8994
+[2021-03-13 02:04:41] - exp044_likes - SEED:2, FOLD:2 >>> 0.9614
+[2021-03-13 02:05:44] - exp044_likes - SEED:2, FOLD:3 >>> 0.9736
+[2021-03-13 02:06:54] - exp044_likes - SEED:2, FOLD:4 >>> 0.9901
+[2021-03-13 02:06:55] - exp044_likes - SEED:2 - score: 0.9672
+[2021-03-13 02:08:07] - exp044_likes - SEED:3, FOLD:0 >>> 0.9540
+[2021-03-13 02:09:18] - exp044_likes - SEED:3, FOLD:1 >>> 1.0090
+[2021-03-13 02:10:26] - exp044_likes - SEED:3, FOLD:2 >>> 0.9498
+[2021-03-13 02:11:39] - exp044_likes - SEED:3, FOLD:3 >>> 0.9241
+[2021-03-13 02:12:51] - exp044_likes - SEED:3, FOLD:4 >>> 0.9685
+[2021-03-13 02:12:52] - exp044_likes - SEED:3 - score: 0.9609
+[2021-03-13 02:15:08] - exp044_likes - SEED:4, FOLD:0 >>> 0.9749
+[2021-03-13 02:16:14] - exp044_likes - SEED:4, FOLD:1 >>> 0.9822
+[2021-03-13 02:17:32] - exp044_likes - SEED:4, FOLD:2 >>> 0.9314
+[2021-03-13 02:18:31] - exp044_likes - SEED:4, FOLD:3 >>> 0.9182
+[2021-03-13 02:19:51] - exp044_likes - SEED:4, FOLD:4 >>> 0.9772
+[2021-03-13 02:19:52] - exp044_likes - SEED:4 - score: 0.9568
+[2021-03-13 02:21:00] - exp044_likes - SEED:5, FOLD:0 >>> 0.9476
+[2021-03-13 02:22:01] - exp044_likes - SEED:5, FOLD:1 >>> 0.9405
+[2021-03-13 02:23:32] - exp044_likes - SEED:5, FOLD:2 >>> 0.9756
+[2021-03-13 02:24:31] - exp044_likes - SEED:5, FOLD:3 >>> 0.9256
+[2021-03-13 02:25:41] - exp044_likes - SEED:5, FOLD:4 >>> 1.0126
+[2021-03-13 02:25:42] - exp044_likes - SEED:5 - score: 0.9604
+[2021-03-13 02:26:59] - exp044_likes - SEED:6, FOLD:0 >>> 0.9114
+[2021-03-13 02:27:49] - exp044_likes - SEED:6, FOLD:1 >>> 0.9944
+[2021-03-13 02:29:04] - exp044_likes - SEED:6, FOLD:2 >>> 1.0019
+[2021-03-13 02:29:55] - exp044_likes - SEED:6, FOLD:3 >>> 0.9097
+[2021-03-13 02:30:52] - exp044_likes - SEED:6, FOLD:4 >>> 0.9720
+[2021-03-13 02:30:53] - exp044_likes - SEED:6 - score: 0.9579
+[2021-03-13 02:30:53] - exp044_likes - end training cv - score: 0.9392
+[2021-03-13 02:30:53] - exp044_likes - start prediction cv
+[2021-03-13 02:30:53] - exp044_likes >>> SEED:0, FOLD:0
+[2021-03-13 02:30:54] - exp044_likes >>> SEED:0, FOLD:1
+[2021-03-13 02:30:55] - exp044_likes >>> SEED:0, FOLD:2
+[2021-03-13 02:30:56] - exp044_likes >>> SEED:0, FOLD:3
+[2021-03-13 02:30:57] - exp044_likes >>> SEED:0, FOLD:4
+[2021-03-13 02:30:58] - exp044_likes >>> SEED:1, FOLD:0
+[2021-03-13 02:30:59] - exp044_likes >>> SEED:1, FOLD:1
+[2021-03-13 02:31:00] - exp044_likes >>> SEED:1, FOLD:2
+[2021-03-13 02:31:01] - exp044_likes >>> SEED:1, FOLD:3
+[2021-03-13 02:31:02] - exp044_likes >>> SEED:1, FOLD:4
+[2021-03-13 02:31:03] - exp044_likes >>> SEED:2, FOLD:0
+[2021-03-13 02:31:04] - exp044_likes >>> SEED:2, FOLD:1
+[2021-03-13 02:31:05] - exp044_likes >>> SEED:2, FOLD:2
+[2021-03-13 02:31:06] - exp044_likes >>> SEED:2, FOLD:3
+[2021-03-13 02:31:07] - exp044_likes >>> SEED:2, FOLD:4
+[2021-03-13 02:31:08] - exp044_likes >>> SEED:3, FOLD:0
+[2021-03-13 02:31:09] - exp044_likes >>> SEED:3, FOLD:1
+[2021-03-13 02:31:10] - exp044_likes >>> SEED:3, FOLD:2
+[2021-03-13 02:31:11] - exp044_likes >>> SEED:3, FOLD:3
+[2021-03-13 02:31:12] - exp044_likes >>> SEED:3, FOLD:4
+[2021-03-13 02:31:13] - exp044_likes >>> SEED:4, FOLD:0
+[2021-03-13 02:31:16] - exp044_likes >>> SEED:4, FOLD:1
+[2021-03-13 02:31:17] - exp044_likes >>> SEED:4, FOLD:2
+[2021-03-13 02:31:18] - exp044_likes >>> SEED:4, FOLD:3
+[2021-03-13 02:31:19] - exp044_likes >>> SEED:4, FOLD:4
+[2021-03-13 02:31:20] - exp044_likes >>> SEED:5, FOLD:0
+[2021-03-13 02:31:21] - exp044_likes >>> SEED:5, FOLD:1
+[2021-03-13 02:31:22] - exp044_likes >>> SEED:5, FOLD:2
+[2021-03-13 02:31:24] - exp044_likes >>> SEED:5, FOLD:3
+[2021-03-13 02:31:24] - exp044_likes >>> SEED:5, FOLD:4
+[2021-03-13 02:31:26] - exp044_likes >>> SEED:6, FOLD:0
+[2021-03-13 02:31:27] - exp044_likes >>> SEED:6, FOLD:1
+[2021-03-13 02:31:28] - exp044_likes >>> SEED:6, FOLD:2
+[2021-03-13 02:31:29] - exp044_likes >>> SEED:6, FOLD:3
+[2021-03-13 02:31:30] - exp044_likes >>> SEED:6, FOLD:4
+[2021-03-13 02:31:30] - exp044_likes - end prediction cv
