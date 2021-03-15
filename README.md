@@ -33,7 +33,7 @@
 5. title, more_title, long_title, description, concat_title(title+more_title+long_title)のtfidf->svd(各256次元)の特徴量, doc2vec 特徴量
 
 ### 2. cv 
-1. group f fold (art_series_id)
+1. group k fold (art_series_id)
 2. num fold: 5~10
 
 ### 3. model
